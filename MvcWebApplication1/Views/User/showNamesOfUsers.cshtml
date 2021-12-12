@@ -1,0 +1,11 @@
+﻿@*@{
+        ViewBag.Title = "showNamesOfUsers";
+    }*@
+
+<h2>showNamesOfUsers</h2>
+<h3>@ViewBag.ArrayUser</h3>
+@foreach (string item in ViewBag.ArrayUser)
+{
+    <li>@item</li>
+}
+
